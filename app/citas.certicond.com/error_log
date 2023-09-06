@@ -1,0 +1,59 @@
+[28-Aug-2023 10:33:32 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php:18
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/DBConnection.php(18): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'citas')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(8): DBConnection->__construct()
+#2 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(136): SystemSettings->__construct()
+#3 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#4 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#5 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php on line 18
+[28-Aug-2023 10:34:30 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php:18
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/DBConnection.php(18): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'citas')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(8): DBConnection->__construct()
+#2 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(136): SystemSettings->__construct()
+#3 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#4 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#5 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php on line 18
+[28-Aug-2023 10:34:48 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php:18
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/DBConnection.php(18): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'citas')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(8): DBConnection->__construct()
+#2 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(136): SystemSettings->__construct()
+#3 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#4 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#5 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/DBConnection.php on line 18
+[28-Aug-2023 10:34:59 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gcerticg3_citas.system_info' doesn't exist in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php:16
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(16): mysqli->query('SELECT * FROM s...')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(137): SystemSettings->load_system_info()
+#2 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#3 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#4 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php on line 16
+[28-Aug-2023 10:35:12 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gcerticg3_citas.system_info' doesn't exist in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php:16
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(16): mysqli->query('SELECT * FROM s...')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(137): SystemSettings->load_system_info()
+#2 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#3 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#4 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php on line 16
+[28-Aug-2023 10:35:13 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gcerticg3_citas.system_info' doesn't exist in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php:16
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(16): mysqli->query('SELECT * FROM s...')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(137): SystemSettings->load_system_info()
+#2 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#3 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#4 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php on line 16
+[28-Aug-2023 10:35:36 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gcerticg3_citas.system_info' doesn't exist in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php:16
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(16): mysqli->query('SELECT * FROM s...')
+#1 /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php(137): SystemSettings->load_system_info()
+#2 /home/gcerticg3/citas.certicond.com/config.php(9): require_once('/home/gcerticg3...')
+#3 /home/gcerticg3/citas.certicond.com/index.php(1): require_once('/home/gcerticg3...')
+#4 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/SystemSettings.php on line 16

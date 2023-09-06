@@ -1,0 +1,20 @@
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $date_sched in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 33
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 33
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $date_sched in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 34
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 34
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $date_sched in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 46
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 46
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $date_sched in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 46
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $id in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 46
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $name in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 55
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $date_sched in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 63
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $status in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 63
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Warning:  Undefined variable $ailment in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 63
+[30-Aug-2023 12:26:17 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '' for column 'date_sched' at row 1 in /home/gcerticg3/citas.certicond.com/classes/Master.php:67
+Stack trace:
+#0 /home/gcerticg3/citas.certicond.com/classes/Master.php(67): mysqli->query('INSERT INTO `ap...')
+#1 /home/gcerticg3/citas.certicond.com/classes/Master.php(151): Master->save_appointment()
+#2 {main}
+  thrown in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 67
+[30-Aug-2023 12:26:57 Asia/Manila] PHP Warning:  Undefined variable $ailment in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 63
+[31-Aug-2023 14:38:56 Asia/Manila] PHP Warning:  Undefined variable $ailment in /home/gcerticg3/citas.certicond.com/classes/Master.php on line 63
